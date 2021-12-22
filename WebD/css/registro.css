@@ -1,0 +1,91 @@
+fieldset
+{
+    background-color:#980C34;
+    color: white;
+    max-width:500px;
+    padding:16px;
+    margin: auto;	
+    border:2px solid;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.legend1
+{
+    margin-bottom:0px;
+    margin-left:16px;
+}
+
+.center 
+{
+    background-color: #980C34;
+    color:white;
+    float: none;
+    width: 30%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.responsive1
+{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+.responsive2
+{
+    width: 15%;
+    height: auto;
+    float: right;
+}
+
+.titulo{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+html { 
+    background-color:#dbdbdb; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+td,th{
+    text-align: center;
+    border: #980C34 5px solid;
+}
+
+@media screen and (max-width: 767px) {
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+    .table-responsive > .table {
+        margin-bottom: 0;
+    }
+    .table-responsive > .table > thead > tr > th,
+    .table-responsive > .table > tbody > tr > th,
+    .table-responsive > .table > tfoot > tr > th,
+    .table-responsive > .table > thead > tr > td,
+    .table-responsive > .table > tbody > tr > td,
+    .table-responsive > .table > tfoot > tr > td {
+        white-space: nowrap;
+    }
+}
